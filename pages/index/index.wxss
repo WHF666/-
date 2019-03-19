@@ -39,7 +39,7 @@
     flex-direction: row;
 }
 .hr {
-    border: 1px solid rgb(212, 212, 212);
+    border: 1px solid #EBC4D2;
     height: 0px;
 }
 
@@ -59,14 +59,14 @@
 }
 .deleaii{		/**清空***/
 	font-size: 1em;
-	background-image: linear-gradient(#00FFFF, #CCFFFF);
+	background: #D696AB;
 }
 .td_in {
     flex-grow: 4;
     text-align: left;
     overflow-x: scroll;
 	overflow-y: hidden;
-	scrollbar-shadow-color: #0000;
+	scrollbar-shadow-color: #EBC4D2;
     width: 85%;
 }
 
@@ -93,7 +93,7 @@
 	size: 1.25em;
 }
 .gradient1 {
-	background-image: linear-gradient(#00FFFF, #0070A0);
+	background: rgb(159, 223, 207);
 }
 
 .gradient2 {
@@ -124,7 +124,7 @@
 	font-size:1.25em;
 }
 .td2{
-	background: #bbb;
+	background: #EBC4D2;
 }
 .td3{
 	background: #eee;
@@ -155,23 +155,23 @@
 
 .number{		/**计算***/
 	width: 70%;
-	background-image: linear-gradient(#33FFFF, #00CCCC);
+	background: rgb(170, 218, 206);
 }
 .a_Aname{		/**大写***/
 	width: 70%;
-	background-image: linear-gradient(#33FFFF, #00CCCC);
+	background: rgb(170, 218, 206);
 }
 .hexad{			/**进制***/
 	width: 70%;
-	background-image: linear-gradient(#33FFFF, #00CCCC);
+	background: rgb(170, 218, 206);
 }
 .del{			/**X***/
 	width: 80%;
 	height: 100%;
-	background-image: linear-gradient(#FF0000, #CC0000);
+	background: #C4A3B2;
 }
 .result{		/**=***/
 	width: 80%;
 	height: 100%;
-	background-image: linear-gradient(#00FFFF, #0070A0);
+	background: rgb(170, 218, 206);
 }

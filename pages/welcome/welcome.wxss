@@ -1,7 +1,7 @@
 /* pages/welcome/welcome.wxss */
 /* pages/welcome/welcome.wxss */
 page{
-  background-color: papayawhip;
+  background: -webkit-linear-gradient(bottom,rgb(241, 176, 188),rgb(241, 208, 243),rgb(215,228,236));
 }
 
 .container{
@@ -12,15 +12,9 @@ page{
   width: 600rpx;
   height: 600rpx;
 }
-.user-welcome{
-  margin-top: 100rpx;
-  font-size: 50rpx;
-  font-weight: bold;
-  color: plum;
-}
 .moto-container{
   margin-top: 100rpx;
-  border: 3px solid plum;
+  border: 3px solid #FFFFFF;
   width: 400rpx;
   height: 90rpx;
   border-radius: 5px;
@@ -30,5 +24,5 @@ page{
   font-size: 50rpx;
   font-weight: bold;
   line-height: 90rpx;
-  color: plum;
+  color: #FFFFFF;
 }
