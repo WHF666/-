@@ -1,7 +1,7 @@
 <!--pages/welcome/welcome.wxml-->
 <!--pages/welcome/welcome.wxml-->
 <view class='container'>
-  <image class="user-image" src = "/image/头像.gif"></image>
+  <image class="user-image" src = "/image/1.gif"></image>
     <text class="user-Welcome">Welcome</text>
   <view class="moto-container" bindtap='go'>
     <text class='moto'>开启精致之旅</text>

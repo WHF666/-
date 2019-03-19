@@ -1,21 +1,177 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* pages/index/index.wxss */
+
+.bottom{
+	bottom: 0px;
+	overflow-y: scroll;
+}
+.td_x--disabled {
+    opacity: 0.5;
+}
+.a_A{
+	bottom: 0px;
+	overflow-y: scroll;
+}
+.nowrap {
+	white-space: nowrap;
+	height: 100%;
+	font-size: 1.25em;
+}
+.hexad_div{
+	height: 3rem;
+}
+.margpad0{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.textRes {
+    background-color: #eee;
+}
+.none{
+	display:none;
+}
+.inline{
+	display:inline;
+}
+.tr {
+    display: flex;
+    flex-direction: row;
+}
+.hr {
+    border: 1px solid rgb(212, 212, 212);
+    height: 0px;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.in {
+    height: 1.5em;
+	position:fixed;
+	top: 0px;
+	background-color: #fff;
+}
+.top_in{
+	top: 2.1em;
+    bottom:0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	position:fixed;
+
+}
+.deleaii{		/**清空***/
+	font-size: 1em;
+	background-image: linear-gradient(#00FFFF, #CCFFFF);
+}
+.td_in {
+    flex-grow: 4;
+    text-align: left;
+    overflow-x: scroll;
+	overflow-y: hidden;
+	scrollbar-shadow-color: #0000;
+    width: 85%;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.td_ina0{
+	height: 3rem;
+	background-color: #fff;
+}
+.td_ina1{
+	height: 3rem;
+	background-color: #aaa;
+}
+.td_btn {
+    text-align: center;
+    width: 15%;
+}
+.center{
+    text-align: center;
+}
+.td1{
+	width: 20%;
+}
+.tr .td{
+	height:2em;
+	size: 1.25em;
+}
+.gradient1 {
+	background-image: linear-gradient(#00FFFF, #0070A0);
 }
 
-.usermotto {
-  margin-top: 200px;
+.gradient2 {
+	background-image: linear-gradient(#FF0000, #D00040);
+}
+.td_x{
+	display: inline-block;
+	padding: .3em .5em;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: .3em;
+	text-align: center;
+	box-shadow: .05em .1em .2em rgba(0, 0, 0, .6) inset;
+	border-color: rgba(0, 0, 0, .3);
+}
+.name {
+	display: inline-block;
+	padding: .3em .5em;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: .3em;
+	box-shadow: 0 1px white inset;
+}
+.td_1{
+	width: 64%;
+	font-size:1.25em;
+}
+.td_2{
+	width: 75%;
+	font-size:1.25em;
+}
+.td2{
+	background: #bbb;
+}
+.td3{
+	background: #eee;
+}
+.td4{
+	background: rgb(255, 100, 100);
+}
+.hexad1{
+	width: 75%;
+}
+.hexad2{
+	width: 70%;
+}
+.hexadaii0{		/**计算***/
+	background: #E8E8E8;
+}
+.hexadaii1{
+	background: #fafafa;
+}
+.go{		/**=***/
+	width: 75%;
+	height: 100%;
+	background-image: linear-gradient(#fefefe, #dadada);
+}
+
+
+
+
+.number{		/**计算***/
+	width: 70%;
+	background-image: linear-gradient(#33FFFF, #00CCCC);
+}
+.a_Aname{		/**大写***/
+	width: 70%;
+	background-image: linear-gradient(#33FFFF, #00CCCC);
+}
+.hexad{			/**进制***/
+	width: 70%;
+	background-image: linear-gradient(#33FFFF, #00CCCC);
+}
+.del{			/**X***/
+	width: 80%;
+	height: 100%;
+	background-image: linear-gradient(#FF0000, #CC0000);
+}
+.result{		/**=***/
+	width: 80%;
+	height: 100%;
+	background-image: linear-gradient(#00FFFF, #0070A0);
 }

@@ -1,6 +1,7 @@
 /* pages/post/post.wxss */
 page{
-  background-color: rgb(240, 190, 175);
+  background:rgb(226, 188, 194);
+  background-image: repeating-linear-gradient(30deg,hsla(0,0%,100%,.4),hsla(0,0%,100%,.4) 15px,transparent 0,transparent 30px);
 }
 .btn1{
   width: 400rpx;
@@ -8,7 +9,7 @@ page{
   margin-top: 200rpx;
   background-color: rgb(253, 247, 247);
   color: #999999;
-  border-radius: 0rpx;
+  border-radius: 50rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +29,7 @@ page{
   margin-top: 200rpx;
   background-color: rgb(253, 247, 247);
   color: #999999;
-  border-radius: 0rpx;
+  border-radius: 50rpx;
   display: flex;
   flex-direction: column;
   align-items: center;

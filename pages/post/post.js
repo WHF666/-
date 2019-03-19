@@ -7,7 +7,22 @@ Page({
   data: {
 
   },
-
+  /**
+   * counter事件
+   */
+  counter:function(){
+    wx.redirectTo({
+      url: '../index/index',
+    })
+  },
+  /**
+   * beauty事件
+   */
+  beauty:function(){
+    wx.redirectTo({
+      url: '../beauty/beauty',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

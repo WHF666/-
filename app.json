@@ -3,6 +3,7 @@
     "pages/welcome/welcome",
     "pages/post/post",
     "pages/index/index",
+    "pages/beauty/beauty",
     "pages/logs/logs"
   ],
   "window": {

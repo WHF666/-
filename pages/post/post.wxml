@@ -1,10 +1,10 @@
 <!--pages/post/post.wxml-->
-<button class='btn1' open-type='contact'>
-  <image class = 'btnImg' src="/image/压力猪.jpg"></image>
+<button class='btn1' bindtap='counter'>
+  <image class = 'btnImg' src="/image/3.jpg"></image>
   <view>变精致前先学个习</view>
 </button>
-<button class='btn2' open-type='openSetting'>
-  <image class='btnImg' src="/image/变美猪.jpg"></image>
+<button class='btn2' bindtap='beauty'>
+  <image class='btnImg' src="/image/2.jpg"></image>
   <view>无心学习只想精致</view>
 </button>
 
