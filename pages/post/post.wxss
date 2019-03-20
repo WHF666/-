@@ -39,3 +39,9 @@ page{
 .btn2::after{
   border: 0;
 }
+.home-page {
+  height: 0rpx;
+  width: 100%;
+  border: 1rpx solid pink;
+  font-size: 60rpx;
+}

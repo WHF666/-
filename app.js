@@ -1,10 +1,17 @@
 //app.js
 App({
   onLaunch: function () {
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
+
+    wx.getSystemInfo({
+      success: (res) => {
+        this.globalData.height = res.statusBarHeight
+      }
+    })
 
     // 登录
     wx.login({
@@ -32,6 +39,8 @@ App({
         }
       }
     })
+
+    //计算器云开发
     if (!wx.cloud) {
       console.error('请使用 2.2.3 或以上的基础库以使用云能力')
     } else {
@@ -41,7 +50,8 @@ App({
       })
     }
   },
+
   globalData: {
-    userInfo: null
+    userInfo: null,
   }
 })

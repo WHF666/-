@@ -53,4 +53,9 @@ page{
   line-height: 90rpx;
   color: #99788A;
 }
-
+.home-page {
+  height: 0rpx;
+  width: 100%;
+  border: 1rpx solid pink;
+  font-size: 60rpx;
+}

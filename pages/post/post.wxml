@@ -1,4 +1,9 @@
 <!--pages/post/post.wxml-->
+<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
+
+<view class='home-page' style='margin-top: {{height}}px'>
+</view>
+
 <button class='btn1' bindtap='counter'>
   <image class = 'btnImg' src="/image/3.jpg"></image>
   <view>变精致前先学个习</view>
