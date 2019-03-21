@@ -1,5 +1,5 @@
 <!--pages/beauty/beauty.wxml-->
-<component-topnav inner-title="{{title}}"></component-topnav> 
+
 
 <view class='zhang'>
   <image class="z_Img" src = "/image/4.jpg"></image>

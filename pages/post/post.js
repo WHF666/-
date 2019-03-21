@@ -6,17 +6,15 @@ Page({
   /**
    * 页面的初始数据
    */
-  data: {
-    motto: 'Hello World',
-    userInfo: {},
-    title: '(*/ω＼*)'
+  data: { 
+
   },
 
   /**
    * counter事件
    */
   counter:function(){
-    wx.redirectTo({
+    wx.switchTab({
       url: '../index/index',
     })
   },
@@ -28,6 +26,7 @@ Page({
       url: '../beauty/beauty',
     })
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -41,6 +40,9 @@ Page({
   onReady: function () {
 
   },
+
+
+  
 
   /**
    * 生命周期函数--监听页面显示

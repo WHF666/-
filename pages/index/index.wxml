@@ -1,5 +1,5 @@
 <view>
-    <view class="tr,in,{{isnowrap?'td_ina0':'td_ina1'}}" style="top:0;width:100%;">
+    <view class="tr,in,{{isnowrap?'td_ina0':'td_ina1'}}" style="top:5;width:100%;">
 
         <scroll-view class="td_in，tr,margpad0" id="nameIN" scroll-x="true" scroll-left="{{scroll1}}">
             <view class="margpad0" bindtap="text_name">

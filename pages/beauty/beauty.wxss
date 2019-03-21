@@ -14,6 +14,7 @@ page{
 .z_Img {
   width: 350rpx;
   height: 350rpx;
+  top:50rpx;
 }
 .z_word{
   margin-top: 20rpx;
@@ -53,12 +54,4 @@ page{
   line-height: 90rpx;
   color: #99788A;
 }
-.home-page {
-  height: 0rpx;
-  width: 100%;
-  border: 1rpx solid pink;
-  font-size: 60rpx;
-}
-.main {
-  position: absolute;
-}
+

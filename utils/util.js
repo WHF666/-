@@ -14,6 +14,11 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+function clog(data) {
+  console.log(data);
+}
+
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  clog: clog
 }

@@ -1,4 +1,7 @@
 /* pages/index/index.wxss */
+page{
+  background: pink;
+}
 
 .bottom{
 	bottom: 0px;
@@ -46,11 +49,11 @@
 .in {
     height: 1.5em;
 	position:fixed;
-	top: 0px;
+	top: 20px;
 	background-color: #fff;
 }
 .top_in{
-	top: 2.1em;
+	top: 3.2em;
     bottom:0;
 	overflow-y: auto;
 	overflow-x: hidden;

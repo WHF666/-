@@ -1,5 +1,4 @@
 <!--pages/post/post.wxml-->
-<component-topnav inner-title="{{title}}"></component-topnav> 
 
 <button class='btn1' bindtap='counter'>
   <image class = 'btnImg' src="/image/3.jpg"></image>

@@ -11,8 +11,8 @@ Page({
    * go事件
    */
   go:function(){
-    wx.redirectTo({
-      url: '../post/post',
+      wx.switchTab({
+        url: '../post/post',
     })
   },
   /**
