@@ -1,8 +1,5 @@
 <!--pages/beauty/beauty.wxml-->
-<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
-
-<view class='home-page' style='margin-top: {{height}}px'>
-</view>
+<component-topnav inner-title="{{title}}"></component-topnav> 
 
 <view class='zhang'>
   <image class="z_Img" src = "/image/4.jpg"></image>

@@ -1,47 +1,29 @@
 const app = getApp()
 Component({
   properties: {
-    navbarData: {   //navbarData   由父页面传递的数据，变量名字自命名
-      type: Object,
-      value: {},
-      observer: function (newVal, oldVal) { }
+    // 这里定义了innerText属性，属性值可以在组件使用时指定
+    innerTitle: {
+      type: String,
+      value: '头部标题'
     },
-    back: {
-      type: Boolean,
-      value: true
-    },
-    home: {
-      type: Boolean,
-      value: true
+    isShowBack: {
+      type: String,
+      value: "true"
     }
   },
   data: {
-    height: '',
-    //默认值  默认显示左上角
-    navbarData: {
-      showCapsule: 1
+    // 这里是一些组件内部数据
+    someData: {
+      statusBarHeight: app.globalData.statusBarHeight,
+      titleBarHeight: app.globalData.titleBarHeight
     }
   },
-  attached: function () {
-    // 定义导航栏的高度   方便对齐
-    this.setData({
-      height: app.globalData.height
-    })
-  },
   methods: {
-    // 返回上一页面
-    _navback: function() {
+    // 这里是一个自定义方法
+    goback: function () {
       wx.navigateBack({
-        delta: 1
-      })
-    },
-    //返回到首页
-    _backhome: function() {
-      wx.switchTab({
-        url: '../post/post',
+        delta: 1,
       })
     }
   }
-
-
-}) 
+})

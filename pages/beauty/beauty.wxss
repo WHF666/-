@@ -59,3 +59,6 @@ page{
   border: 1rpx solid pink;
   font-size: 60rpx;
 }
+.main {
+  position: absolute;
+}

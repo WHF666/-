@@ -1,8 +1,5 @@
 <!--pages/post/post.wxml-->
-<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
-
-<view class='home-page' style='margin-top: {{height}}px'>
-</view>
+<component-topnav inner-title="{{title}}"></component-topnav> 
 
 <button class='btn1' bindtap='counter'>
   <image class = 'btnImg' src="/image/3.jpg"></image>
@@ -12,5 +9,6 @@
   <image class='btnImg' src="/image/2.jpg"></image>
   <view>无心学习只想精致</view>
 </button>
+
 
 
