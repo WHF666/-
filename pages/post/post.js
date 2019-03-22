@@ -22,8 +22,8 @@ Page({
    * beauty事件
    */
   beauty:function(){
-    wx.redirectTo({
-      url: '../beauty/beauty',
+    wx.switchTab({
+      url: '../account/account',
     })
   },
 

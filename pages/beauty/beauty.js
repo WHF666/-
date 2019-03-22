@@ -21,6 +21,15 @@ Page({
   },
 
   /**
+   * huazhuang事件
+   */
+  huazhuang:function(){
+    wx.redirectTo({
+      url: '../cosmetic/cosmetic',
+    })
+  },
+
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
