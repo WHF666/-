@@ -3,7 +3,7 @@ Page({
   data: {
     arr: ['input1', 'input2'],
     arr2: ['input4', 'input5'],
-    arr1: ['质量:', '价格:'],
+    arr1: ['质量(g或ml):', '价格:'],
     huobi: ["人民币", "日元", "美元", "英镑", "欧元", "韩元", "澳元", "港币", "加元", "泰铢", "新台币", "瑞士法郎"],
     huilv: [1, 0.06071, 6.7134, 8.795, 7.5866, 0.005927, 4.7617, 0.8555, 5.02139, 0.2118, 0.2178, 6.7355],
     input1: 1,
@@ -85,17 +85,17 @@ Page({
     if (result1 > result2) {
       this.setData({
         result: `对比结果:
-        化妆品1价格为:${result1}
-        化妆品2价格为:${result2}
-        化妆品1价格>化妆品2价格`,
+        产品1单位质量价格为:${result1}
+        产品2单位质量价格为:${result2}
+        产品2性价比更高`,
         hidden: false
       })
     } else if (result1 == result2) {
       this.setData({
         result: `对比结果:
-        化妆品1价格为:${result1}
-        化妆品2价格为:${result2}
-        化妆品1价格=化妆品2价格`,
+        产品1单位质量价格为:${result1}
+        产品2单位质量价格为:${result2}
+        二者性价比相同`,
         hidden: false
       })
     } else if (isNaN(result1) || isNaN(result2)) {
@@ -106,9 +106,9 @@ Page({
     } else {
       this.setData({
         result: `对比结果:
-        化妆品1价格为:${result1}
-        化妆品2价格为:${result2}
-        化妆品1价格<化妆品2价格`,
+        产品1单位质量价格为:${result1}
+        产品2单位质量价格为:${result2}
+        产品1性价比更高`,
         hidden: false
       })
     }

@@ -20,27 +20,33 @@
     "list": [
       {
         "pagePath": "pages/post/post",
-        "text": "post",
-        "iconPath": "image/post1.png",
-        "selectedIconPath": "image/post1-fill.png"
+        "text": "choice1",
+        "iconPath": "image/heart1.jpg",
+        "selectedIconPath": "image/here.png"
       },
       {
         "pagePath": "pages/index/index",
         "text": "counter",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "image/counter.png",
+        "selectedIconPath": "image/here.png"
+      },
+      {
+        "pagePath":"pages/beauty/beauty",
+        "text":"choice2",
+        "iconPath":"image/pig.png",
+        "selectedIconPath":"image/here.png"
       },
       {
         "pagePath": "pages/account/account",
         "text": "account",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "image/account.png",
+        "selectedIconPath": "image/here.png"
       },
       {
         "pagePath":"pages/cosmetic/cosmetic",
         "text":"cosmetic",
         "iconPath":"image/beauty1.png",
-        "selectedIconPath":"image/beauty1-fill.png"
+        "selectedIconPath":"image/here.png"
       }
     ]
   }

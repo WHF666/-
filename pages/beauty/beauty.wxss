@@ -9,7 +9,7 @@ page{
   display:flex;
   flex-direction:column;
   align-items: center;
-  margin-top: 60rpx;
+  margin-top: 130rpx;
 }
 .z_Img {
   width: 350rpx;
@@ -34,14 +34,14 @@ page{
   display:flex;
   flex-direction:column;
   align-items: center;
-  margin-top: 100rpx;
+  margin-top: 60rpx;
 }
 .h_Img {
   width: 350rpx;
   height: 350rpx;
 }
 .h_word{
-  margin-top: 20rpx;
+  margin-top: 10rpx;
   border: 3px solid #99788A;
   width: 600rpx;
   height: 90rpx;

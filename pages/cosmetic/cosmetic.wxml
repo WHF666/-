@@ -1,12 +1,15 @@
 <!--pages/cosmetic/cosmetic.wxml-->
+<view class='aaa'></view>
 <view class='view left'>
-<text>化妆品1:
+<view class='bbb'>
+<text>产品1:
 </text>
+</view>
 <view>
 <block wx:for="{{arr}}">
 <text>{{arr1[index]}}</text><input type='digit' bindinput='{{item}}' placeholder='0' style='  border-left:none; '></input>
 </block>
-<text>汇率:</text><input  type='digit'  placeholder='0' style='  border-left:none; ' value='{{hl}}' disabled='true'></input>
+<text>汇率:</text><input  type='digit'  placeholder='选择货币自动显示' style='  border-left:none; ' value='{{hl}}' disabled='true'></input>
 <view class='left'>货币:</view>
 <view class='border right' bindtap='select'>
 <view class='huobi left'>
@@ -20,13 +23,15 @@
 </view>
 </view>
 <view class='view right'>
-<text>化妆品2:
+<view class='bbb'>
+<text>产品2:
 </text>
+</view>
 <view>
 <block wx:for="{{arr2}}">
 <text>{{arr1[index]}}</text><input  type='digit' bindinput='{{item}}' placeholder='0' style='  border-left:none; '></input>
 </block>
-<text>汇率:</text><input  type='digit' placeholder='0' style='  border-left:none; ' value='{{hl1}}' disabled='true'></input>
+<text>汇率:</text><input  type='digit' placeholder='选择货币自动显示' style='  border-left:none; ' value='{{hl1}}' disabled='true'></input>
 <view class='left'>货币:</view>
 <view class='border right' bindtap='select1'>
 <view class='huobi left'>
@@ -40,7 +45,7 @@
 </view>
 </view>
 <text>\n</text>
-<button type='primary' size='mini' bindtap='bd' class='right bd'>对比</button>
+<button size='mini' bindtap='bd' class='right bd'>对比</button>
 <view class='result' hidden='{{hidden}}'>
 <text>{{result}}</text>
 </view>

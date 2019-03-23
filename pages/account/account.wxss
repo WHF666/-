@@ -28,14 +28,14 @@ background-size:100px 100px;
 }
 
 .account-list-text{
-    color:black;
+    color:rgb(78, 69, 69);
     margin:50rpx 0 0 30rpx;
     font-size: 50rpx;
     font-weight: bold;
 }
 
 .account-list-all-amount{
-    color:black;
+    color:rgb(78, 69, 69);
     align-self: flex-end;
     padding-right: 25rpx;
     font-size: 40rpx;
@@ -49,12 +49,15 @@ background-size:100px 100px;
     display: flex;
     flex-direction: row;
     background-color:wheat;
-    line-height: 70rpx;
+    line-height: 20rpx;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20rpx;
 }
 
 
 .account-list-detail{
-    flex:1;
+    flex: 1;
 }
 
 
@@ -73,4 +76,12 @@ background-size:100px 100px;
 .btn5::after{
   border-radius: 98rpx;
   border: 0;
+}
+.account-list-del{
+  margin-top: 0rpx;
+}
+.btn6{
+  background-color: rgb(202, 94, 94);
+  color: white;
+  border-radius: 20rpx;
 }

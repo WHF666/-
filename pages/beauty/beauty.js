@@ -24,7 +24,7 @@ Page({
    * huazhuang事件
    */
   huazhuang:function(){
-    wx.redirectTo({
+    wx.switchTab({
       url: '../cosmetic/cosmetic',
     })
   },

@@ -23,7 +23,7 @@ Page({
    */
   beauty:function(){
     wx.switchTab({
-      url: '../account/account',
+      url: '../beauty/beauty',
     })
   },
 

@@ -34,7 +34,7 @@
         </view>
 
         <view class="account-list-del">
-            <button size="mini"  type="warn"  data-index-key="{{index}}"  bindtap="deleteRow" >删除</button>
+            <button size="mini" class='btn6'  data-index-key="{{index}}"  bindtap="deleteRow" >删除</button>
         </view>
 
         </view>
