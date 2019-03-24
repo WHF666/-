@@ -11,16 +11,21 @@
 1. 基础计算器功能：实现了加减乘除四则混合运算、取余运算、进制换算以及逻辑位运算；<br>
 2. 精致功能：包括账单统计和化妆品单位价格计算。<br>
 ## 小程序详情展示（UI+代码）<br>
-### 首页
+### 1. 首页
 ![image](https://github.com/WHF666/-/blob/master/1.jpg)<br>
 点击“开启精致之旅”可进入下一页面。<br>
-本页面实现代码为pages/welcome/welcome。<br>
-### choice1页面
+本页面实现代码为pages/welcome。<br>
+### 2. choice1页面
 ![image](https://github.com/WHF666/-/blob/master/choice1.jpg)<br>
 本页面共两个选择button。点击“变精致前先学个习”button后可进入基础计算器功能页面，点击“无心学习只想精致”button则可进入精致功能选择页面。<br>
 同时页面下方设置了不同页面间切换的tabBar，供用户较为熟悉本小程序页面跳转、功能分布后，可以快速进入自己想选择的页面。tabBar中共五个选项可供选择，从左到右为choice1、counter、choice2、account、cosmetic，依次代表choice1页面、基础计算器页面、choice2页面、账单功能页面和化妆品单位价格换算页面。<br>
 当用户选择某页面跳转后，该页面在tabBar中的图标会变为地图定位形状，同时下方名字会变为绿色。
-本页面实现代码为pages/post/post。<br>
-### 基础计算器页面
-![image]()<br>
+本页面实现代码为pages/post。<br>
+### 3. 基础计算器页面
+![image](https://github.com/WHF666/-/blob/master/counter.jpg)<br>
+* 新运算开始前先按“清空”。<br>
+* 进行进制换算时先点击“进制”，出现的白色按钮区从左到右依次为：被转换进制数、目标进制数、结果用何种进制表示、转换命令。该区域输入时先点击“X”按钮表示清空，再进行输入。<br>
+* 每次的计算式都会保留在屏幕上。<br>
+该页面实现代码为pages/index和pages/dist。<br>
+### 4. choice2页面<br>
 
