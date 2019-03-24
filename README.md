@@ -11,6 +11,10 @@
 1. 基础计算器功能：实现了加减乘除四则混合运算、进制换算以及逻辑位运算；<br>
 2. 精致功能：包括账单统计和化妆品单位价格计算。<br>
 ## 小程序详情展示（UI+代码）<br>
-1. 首页
-
+### 首页
+![image](https://github.com/WHF666/-/blob/master/1.jpg)<br>
+点击“开启精致之旅”可进入下一页面。<br>
+本页面实现代码为pages/welcome/welcome。<br>
+### choice1页面
+![image]()
 
